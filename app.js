@@ -20,7 +20,7 @@ const apiUrlInput = document.getElementById('apiUrlInput');
 const saveApiBtn = document.getElementById('saveApiBtn');
 const closeApiBtn = document.getElementById('closeApiBtn');
 
-let API_BASE_URL = localStorage.getItem('CREEPIE_API_URL') || 'http://localhost:8000';
+let API_BASE_URL = localStorage.getItem('CREEPIE_API_URL') || 'https://api-creeper.nctitc.io.vn';
 apiUrlInput.value = API_BASE_URL;
 
 let isRecording = false;
